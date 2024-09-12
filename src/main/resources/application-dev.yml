@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /the-spot
+spring:
+  application:
+    name: the-spot-bookings-be
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      generate-ddl: true
+    #      default_schema: sol_gen_model
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/the_spot_bookings
+    username: postgres
+    password: admin@123
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+token:
+  signing:
+    key: 413F4428472B4B6250655368566D5970337336763979244226452948404D6351dd
