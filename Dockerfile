@@ -1,0 +1,21 @@
+# Set the working directory inside the container
+WORKDIR /app
+# Copy the pom.xml and download dependencies
+COPY pom.xml .
+# Download dependencies (this step is cached unless pom.xml changes)
+RUN mvn dependency:go-offline -B
+# Copy the source code into the container
+COPY src ./src
+# Run Maven clean and install
+RUN mvn clean install -DskipTests
+
+# Stage 2: Copy the built JAR to the final image
+FROM eclipse-temurin:17-jdk-alpine
+# Create a volume to store temporary files
+VOLUME /tmp
+# Copy the JAR file from the build stage to the current stage
+COPY --from=build /app/target/*.jar sampradaya-silks.jar
+# Run the JAR file
+ENTRYPOINT ["java", "-jar", "/sampradaya-silks.jar"]
+# Expose the port the application runs on
+EXPOSE 8080

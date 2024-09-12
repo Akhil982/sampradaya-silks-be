@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.sampradaya.silks</groupId>
 	<artifactId>sampradaya-silks-be</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>sampradaya-silks-be</name>
 	<description>Backend Service for Sampradaya Silks</description>
 	<url/>
