@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /sampradaya-silks
+spring:
+  application:
+    name: sampradaya-silks-be
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      generate-ddl: true
+    #      default_schema: sol_gen_model
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://dpg-cr6o0etds78s73c12blg-a:5432/the_spot_bookings
+    username: the_spot_bookings_user
+    password: Y0ik27FNC2R2W2jwlafXgPfC09GB3VvX
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+token:
+  signing:
+    key: 413F4428472B4B6250655368566D5970337336763979244226452948404D6351dd
