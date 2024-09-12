@@ -1,6 +1,6 @@
-package com.thespot.bookings.security.dao.response;
+package com.sampradaya.silks.security.dao.response;
 
-import com.thespot.bookings.security.entity.Role;
+import com.sampradaya.silks.security.entity.Role;
 import lombok.*;
 
 @Getter

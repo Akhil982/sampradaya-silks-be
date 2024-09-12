@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.entity;
+package com.sampradaya.silks.security.entity;
 
 public enum Role {
     USER,

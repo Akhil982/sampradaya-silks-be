@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.service;
+package com.sampradaya.silks.security.service;
 
 import io.jsonwebtoken.Claims;
 import org.springframework.security.core.userdetails.UserDetails;

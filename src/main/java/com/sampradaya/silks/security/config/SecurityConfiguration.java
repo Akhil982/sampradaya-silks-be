@@ -1,6 +1,6 @@
-package com.thespot.bookings.security.config;
+package com.sampradaya.silks.security.config;
 
-import com.thespot.bookings.security.service.UserService;
+import com.sampradaya.silks.security.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import static com.thespot.bookings.security.entity.Role.SUPER_ADMIN;
+import static com.sampradaya.silks.security.entity.Role.SUPER_ADMIN;
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
 
 @Configuration

@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.constant.errors;
+package com.sampradaya.silks.security.constant.errors;
 
 public final class AuthErrorMessage {
     private AuthErrorMessage() {}

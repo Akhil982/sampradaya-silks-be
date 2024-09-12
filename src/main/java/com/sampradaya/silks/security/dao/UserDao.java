@@ -1,9 +1,9 @@
-package com.thespot.bookings.security.dao;
+package com.sampradaya.silks.security.dao;
 
-import com.thespot.bookings.security.entity.Role;
-import com.thespot.bookings.security.entity.User;
-import com.thespot.bookings.security.repo.UserRepo;
-import com.thespot.bookings.security.util.DatabaseUtil;
+import com.sampradaya.silks.security.entity.Role;
+import com.sampradaya.silks.security.entity.User;
+import com.sampradaya.silks.security.repo.UserRepo;
+import com.sampradaya.silks.security.util.DatabaseUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;

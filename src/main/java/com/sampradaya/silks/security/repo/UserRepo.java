@@ -1,7 +1,7 @@
-package com.thespot.bookings.security.repo;
+package com.sampradaya.silks.security.repo;
 
-import com.thespot.bookings.security.entity.Role;
-import com.thespot.bookings.security.entity.User;
+import com.sampradaya.silks.security.entity.Role;
+import com.sampradaya.silks.security.entity.User;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

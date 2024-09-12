@@ -1,14 +1,14 @@
-package com.thespot.bookings.security.config;
+package com.sampradaya.silks.security.config;
 
-import com.thespot.bookings.security.service.JwtService;
-import com.thespot.bookings.security.service.UserService;
+import com.sampradaya.silks.security.service.JwtService;
+import com.sampradaya.silks.security.service.UserService;
 import io.jsonwebtoken.Claims;
+import io.micrometer.common.util.StringUtils;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContext;

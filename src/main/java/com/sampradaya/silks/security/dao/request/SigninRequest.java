@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.dao.request;
+package com.sampradaya.silks.security.dao.request;
 
 import lombok.*;
 

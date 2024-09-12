@@ -1,9 +1,9 @@
-package com.thespot.bookings.security.service;
+package com.sampradaya.silks.security.service;
 
-import com.thespot.bookings.security.dao.request.SignUpRequest;
-import com.thespot.bookings.security.dao.request.SigninRequest;
-import com.thespot.bookings.security.dao.response.JwtAuthenticationResponse;
-import com.thespot.bookings.security.entity.User;
+import com.sampradaya.silks.security.dao.request.SignUpRequest;
+import com.sampradaya.silks.security.dao.request.SigninRequest;
+import com.sampradaya.silks.security.dao.response.JwtAuthenticationResponse;
+import com.sampradaya.silks.security.entity.User;
 
 public interface AuthenticationService {
     JwtAuthenticationResponse signup(SignUpRequest request);

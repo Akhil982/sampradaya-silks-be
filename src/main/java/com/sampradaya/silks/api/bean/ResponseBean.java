@@ -1,4 +1,4 @@
-package com.thespot.bookings.api.bean;
+package com.sampradaya.silks.api.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

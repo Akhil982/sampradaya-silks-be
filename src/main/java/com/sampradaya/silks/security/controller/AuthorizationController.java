@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.controller;
+package com.sampradaya.silks.security.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.entity;
+package com.sampradaya.silks.security.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,7 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "the_spot_user")
+@Table(name = "sampradaya_silks_user", schema = "sampradaya_silks")
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

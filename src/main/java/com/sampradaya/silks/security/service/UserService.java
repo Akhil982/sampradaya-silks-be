@@ -1,6 +1,6 @@
-package com.thespot.bookings.security.service;
+package com.sampradaya.silks.security.service;
 
-import com.thespot.bookings.security.entity.User;
+import com.sampradaya.silks.security.entity.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 public interface UserService {

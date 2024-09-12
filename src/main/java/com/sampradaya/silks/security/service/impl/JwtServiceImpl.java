@@ -1,6 +1,6 @@
-package com.thespot.bookings.security.service.impl;
+package com.sampradaya.silks.security.service.impl;
 
-import com.thespot.bookings.security.service.JwtService;
+import com.sampradaya.silks.security.service.JwtService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

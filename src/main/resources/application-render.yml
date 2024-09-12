@@ -1,10 +1,10 @@
 server:
   port: 8080
   servlet:
-    context-path: /the-spot
+    context-path: /sampradaya-silks
 spring:
   application:
-    name: the-spot-bookings-be
+    name: sampradaya-silks-be
   jpa:
     hibernate:
       ddl-auto: update

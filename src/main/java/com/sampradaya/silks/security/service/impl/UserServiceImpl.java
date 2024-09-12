@@ -1,8 +1,9 @@
-package com.thespot.bookings.security.service.impl;
+package com.sampradaya.silks.security.service.impl;
 
-import com.thespot.bookings.security.entity.User;
-import com.thespot.bookings.security.repo.UserRepo;
-import com.thespot.bookings.security.service.UserService;
+
+import com.sampradaya.silks.security.entity.User;
+import com.sampradaya.silks.security.repo.UserRepo;
+import com.sampradaya.silks.security.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

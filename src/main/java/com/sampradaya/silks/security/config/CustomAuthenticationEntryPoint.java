@@ -1,7 +1,7 @@
-package com.thespot.bookings.security.config;
+package com.sampradaya.silks.security.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.thespot.bookings.api.bean.ResponseBean;
+import com.sampradaya.silks.api.bean.ResponseBean;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

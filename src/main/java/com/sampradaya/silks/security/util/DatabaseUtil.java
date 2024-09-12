@@ -1,4 +1,4 @@
-package com.thespot.bookings.security.util;
+package com.sampradaya.silks.security.util;
 
 import io.micrometer.common.util.StringUtils;
 import org.springframework.data.domain.Sort;

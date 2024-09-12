@@ -1,14 +1,14 @@
-package com.thespot.bookings.security.service.impl;
+package com.sampradaya.silks.security.service.impl;
 
-import com.thespot.bookings.security.dao.request.SignUpRequest;
-import com.thespot.bookings.security.dao.request.SigninRequest;
-import com.thespot.bookings.security.dao.response.JwtAuthenticationResponse;
-import com.thespot.bookings.security.entity.Role;
-import com.thespot.bookings.security.entity.User;
-import com.thespot.bookings.security.exception.UnauthenticatedException;
-import com.thespot.bookings.security.repo.UserRepo;
-import com.thespot.bookings.security.service.AuthenticationService;
-import com.thespot.bookings.security.service.JwtService;
+import com.sampradaya.silks.security.dao.request.SignUpRequest;
+import com.sampradaya.silks.security.dao.request.SigninRequest;
+import com.sampradaya.silks.security.dao.response.JwtAuthenticationResponse;
+import com.sampradaya.silks.security.entity.Role;
+import com.sampradaya.silks.security.entity.User;
+import com.sampradaya.silks.security.exception.UnauthenticatedException;
+import com.sampradaya.silks.security.repo.UserRepo;
+import com.sampradaya.silks.security.service.AuthenticationService;
+import com.sampradaya.silks.security.service.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 import java.util.UUID;
 
-import static com.thespot.bookings.security.constant.errors.AuthErrorMessage.UN_AUTHENTICATED;
+import static com.sampradaya.silks.security.constant.errors.AuthErrorMessage.UN_AUTHENTICATED;
 
 
 @Service

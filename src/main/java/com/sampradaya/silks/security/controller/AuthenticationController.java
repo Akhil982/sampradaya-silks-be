@@ -1,10 +1,10 @@
-package com.thespot.bookings.security.controller;
+package com.sampradaya.silks.security.controller;
 
-import com.thespot.bookings.api.bean.ResponseBean;
-import com.thespot.bookings.security.dao.request.SignUpRequest;
-import com.thespot.bookings.security.dao.request.SigninRequest;
-import com.thespot.bookings.security.dao.response.JwtAuthenticationResponse;
-import com.thespot.bookings.security.service.AuthenticationService;
+import com.sampradaya.silks.api.bean.ResponseBean;
+import com.sampradaya.silks.security.dao.request.SignUpRequest;
+import com.sampradaya.silks.security.dao.request.SigninRequest;
+import com.sampradaya.silks.security.dao.response.JwtAuthenticationResponse;
+import com.sampradaya.silks.security.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
