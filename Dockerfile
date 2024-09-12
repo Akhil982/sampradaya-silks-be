@@ -1,3 +1,5 @@
+# Stage 1: Build the JAR file with Maven
+FROM maven:3.8.7-eclipse-temurin-17-alpine AS build
 # Set the working directory inside the container
 WORKDIR /app
 # Copy the pom.xml and download dependencies
